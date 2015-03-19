@@ -4,6 +4,7 @@
 ## Variables 
 
 prefix 't' to denote time
+prefix 'f' to denote frequency domain signals
     
     "1" "subject_id"
         1:30 (30 subjects)
