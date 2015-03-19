@@ -52,7 +52,7 @@ run_analysis <- function()
     ## 'Export' the dataset (Step 4)
     subject_Y_X_data <<- subject_Y_X_data
     
-    ## 'Export' the dataset (Step 4)
+    ## 'Export' the dataset (Step 5)
     subject_Y_X_data_step5 <<- ddply(subject_Y_X_data, .(subject_id, activity_id), colwise(mean))
     
     return(subject_Y_X_data_step5)
